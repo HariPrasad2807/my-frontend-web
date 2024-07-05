@@ -1,0 +1,108 @@
+*{
+    margin: 8px;
+    padding:0px;
+    box-sizing: border-box;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 500;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    
+}
+
+.section-1{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    
+}
+
+.image-sec{
+    height: 300px;
+    width: 500px;
+    border-radius: 60px;
+    margin-top: 20px;
+    margin-bottom:100px;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+.head-sec{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.heading{
+    margin-bottom: 20px;
+    font-family: inter;
+}
+
+.button{
+    display: inline-block;
+    background-color: rgb(20, 147, 58);
+    margin-top: 10px;
+    padding:10px 5px;
+    border-radius: 60px;
+    border-color: white;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+
+.para{
+    margin-right: 00px;
+    font-size: 20px;
+    font-weight: 100;
+    
+    
+}
+
+.design-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+}
+
+.svg-section{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    
+}
+
+.para1{
+    margin-top:20px;
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+
+.svg-icon{
+    stroke:green;
+}
+
+.section-3{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap:40px;
+    margin-top: 40px;
+    background-color: rgba(29, 106, 29, 0.852);
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.girl-img{
+    width: 240px;
+    height:200px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.sec-3-para{
+    margin-top: 20px;
+    margin-bottom:20px;
+}
